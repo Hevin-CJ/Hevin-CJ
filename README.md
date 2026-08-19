@@ -27,11 +27,8 @@
   <a href="mailto:hevincjofficial@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://github.com/Hevin-CJ/CashFlow">
+  <a href="https://github.com/Hevin-CJ/Cashflow">
     <img src="https://img.shields.io/badge/Featured_App-CashFlow-635BFF?style=for-the-badge&logo=android&logoColor=white" alt="CashFlow"/>
-  </a>
-  <a href="https://github.com/Hevin-CJ/cashflow-backend">
-    <img src="https://img.shields.io/badge/Backend-Ktor_Sync-00F5D4?style=for-the-badge&logo=kotlin&logoColor=black" alt="Cashflow Backend"/>
   </a>
 
   <br/><br/>
@@ -48,83 +45,7 @@
   <br/>
 
   <!-- ═══════════════════════════════════════════════════════ -->
-  <!--               ⭐ POPULAR REPOSITORIES                  -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <h3>⭐ Popular Repositories</h3>
-  <p>Featured projects crafted with modern architectures and clean design principles.</p>
-
-  <p align="center">
-    <a href="https://github.com/Hevin-CJ/CashFlow">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=Hevin-CJ&repo=CashFlow&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117&show_owner=false" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=Hevin-CJ&repo=CashFlow&theme=default&hide_border=true&title_color=635BFF&icon_color=0969DA&text_color=24292F&bg_color=FFFFFF&show_owner=false" />
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=Hevin-CJ&repo=CashFlow&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117&show_owner=false" height="155" alt="CashFlow Repository" />
-      </picture>
-    </a>
-    &nbsp;
-    <a href="https://github.com/Hevin-CJ/cashflow-backend">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=Hevin-CJ&repo=cashflow-backend&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117&show_owner=false" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=Hevin-CJ&repo=cashflow-backend&theme=default&hide_border=true&title_color=635BFF&icon_color=0969DA&text_color=24292F&bg_color=FFFFFF&show_owner=false" />
-        <img src="https://github-stats-extended.vercel.app/api/pin/?username=Hevin-CJ&repo=cashflow-backend&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117&show_owner=false" height="155" alt="cashflow-backend Repository" />
-      </picture>
-    </a>
-  <br/>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--             ⚡ PUBLIC OPEN SOURCE PROJECTS             -->
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <h3>🚀 Public Projects &amp; Repositories</h3>
-  <p>Live snapshot auto-synced daily via GitHub Actions:</p>
-
-<!-- RECENT-REPOS:START -->
-<table>
-  <thead>
-    <tr>
-      <th align="left">🚀 Project</th>
-      <th align="left">📝 Description</th>
-      <th align="center">🛠️ Language</th>
-      <th align="center">⭐ Stars</th>
-      <th align="center">🍴 Forks</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="https://github.com/Hevin-CJ/Cashflow"><b>Cashflow</b></a></td>
-      <td>An Expense Tracker </td>
-      <td align="center"><code>Kotlin</code></td>
-      <td align="center">0</td>
-      <td align="center">0</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Hevin-CJ/Grocerly"><b>Grocerly</b></a></td>
-      <td>No description provided.</td>
-      <td align="center"><code>Kotlin</code></td>
-      <td align="center">0</td>
-      <td align="center">0</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Hevin-CJ/Grocerly-Partner"><b>Grocerly-Partner</b></a></td>
-      <td>No description provided.</td>
-      <td align="center"><code>Kotlin</code></td>
-      <td align="center">0</td>
-      <td align="center">0</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/Hevin-CJ/learning-git"><b>learning-git</b></a></td>
-      <td>No description provided.</td>
-      <td align="center"><code>JavaScript</code></td>
-      <td align="center">0</td>
-      <td align="center">0</td>
-    </tr>
-  </tbody>
-</table>
-<!-- RECENT-REPOS:END -->
-
-  <br/>
-
-  <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                  TECH STACK GRID                       -->
+  <!--                  TECH STACK & TOOLS                    -->
   <!-- ═══════════════════════════════════════════════════════ -->
   <h3>🛠️ Tech Stack &amp; Tools</h3>
   <a href="https://skillicons.dev">
@@ -133,6 +54,32 @@
   </a>
 
   <br/><br/>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--               ⭐ POPULAR REPOSITORIES                  -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <h3>⭐ Popular Repositories</h3>
+  <p>Top active open-source projects auto-synced by commit activity &amp; latest updates:</p>
+
+<!-- POPULAR-REPOS:START -->
+  <p align="center">
+    <a href="https://github.com/Hevin-CJ/Cashflow">
+      <img src="assets/cards/Cashflow.svg" width="48%" alt="Cashflow Repository Card" />
+    </a>
+    <a href="https://github.com/Hevin-CJ/Grocerly">
+      <img src="assets/cards/Grocerly.svg" width="48%" alt="Grocerly Repository Card" />
+    </a>
+    <br/>
+    <a href="https://github.com/Hevin-CJ/Grocerly-Partner">
+      <img src="assets/cards/Grocerly-Partner.svg" width="48%" alt="Grocerly-Partner Repository Card" />
+    </a>
+    <a href="https://github.com/Hevin-CJ/learning-git">
+      <img src="assets/cards/learning-git.svg" width="48%" alt="learning-git Repository Card" />
+    </a>
+  </p>
+<!-- POPULAR-REPOS:END -->
+
+  <br/>
 
   <!-- ═══════════════════════════════════════════════════════ -->
   <!--       GITHUB STATS & TOP LANGUAGES (LIGHT/DARK)       -->

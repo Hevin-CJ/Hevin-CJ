@@ -36,6 +36,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || git commit -m "chore(profile): sync public repositories table [skip ci]"
+          git add README.md assets/cards/
+          git diff --cached --quiet || git commit -m "chore(profile): sync public repository cards [skip ci]"
           git push
