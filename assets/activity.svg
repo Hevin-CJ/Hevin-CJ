@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="150" viewBox="0 0 830 150" fill="none">
+  <style>
+    .card-bg {
+      fill: #0D1117;
+      stroke: url(#act-border-grad);
+      stroke-width: 1.5;
+      rx: 14;
+    }
+    .act-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      fill: #FFFFFF;
+      letter-spacing: 0.5px;
+    }
+    .metric-value {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 26px;
+      font-weight: 800;
+      fill: #00F5D4;
+    }
+    .metric-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #8B949E;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .shimmer-track {
+      fill: rgba(99, 91, 255, 0.15);
+      rx: 4;
+    }
+    .shimmer-bar {
+      fill: url(#shimmer-grad);
+      rx: 4;
+      animation: shimmerFlow 3s ease-in-out infinite alternate;
+    }
+    @keyframes shimmerFlow {
+      0% { width: 240px; transform: translateX(0px); }
+      100% { width: 380px; transform: translateX(410px); }
+    }
+    @media (prefers-color-scheme: light) {
+      .card-bg {
+        fill: #FFFFFF;
+        stroke: #D0D7DE;
+      }
+      .act-title {
+        fill: #24292F;
+      }
+      .metric-value {
+        fill: #0969DA;
+      }
+      .metric-label {
+        fill: #57606A;
+      }
+      .shimmer-track {
+        fill: rgba(9, 105, 218, 0.1);
+      }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="act-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#635BFF">
+        <animate attributeName="stop-color" values="#635BFF;#00F5D4;#FF007A;#635BFF" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#FF007A">
+        <animate attributeName="stop-color" values="#FF007A;#635BFF;#00F5D4;#FF007A" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00F5D4">
+        <animate attributeName="stop-color" values="#00F5D4;#FF007A;#635BFF;#00F5D4" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="shimmer-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#635BFF" />
+      <stop offset="50%" stop-color="#00F5D4" />
+      <stop offset="100%" stop-color="#FF007A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Card -->
+  <rect x="1" y="1" width="828" height="148" class="card-bg" />
+
+  <!-- Title & Icon -->
+  <g transform="translate(24, 28)">
+    <circle cx="8" cy="8" r="7" fill="#00F5D4" opacity="0.85">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="24" y="13" class="act-title">⚡ REAL-TIME CONTRIBUTION &amp; ENGINEERING METRICS</text>
+  </g>
+
+  <!-- 3 Big Metric Columns -->
+  <g transform="translate(45, 80)">
+    <!-- Total Commits -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="metric-value">🔥 90+</text>
+      <text x="0" y="20" class="metric-label">Total Verified Commits</text>
+    </g>
+
+    <!-- Active Projects -->
+    <g transform="translate(280, 0)">
+      <text x="0" y="0" class="metric-value">🚀 4 Public Apps</text>
+      <text x="0" y="20" class="metric-label">Open Source Codebases</text>
+    </g>
+
+    <!-- Streak Level -->
+    <g transform="translate(560, 0)">
+      <text x="0" y="0" class="metric-value">⭐ Active Daily</text>
+      <text x="0" y="20" class="metric-label">Continuous Builder</text>
+    </g>
+  </g>
+
+  <!-- Animated Bottom Shimmer Bar -->
+  <g transform="translate(24, 128)">
+    <rect x="0" y="0" width="782" height="6" class="shimmer-track" />
+    <rect x="0" y="0" width="300" height="6" class="shimmer-bar" />
+  </g>
+</svg>

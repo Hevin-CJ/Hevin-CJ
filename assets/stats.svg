@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="175" viewBox="0 0 410 175" fill="none">
+  <style>
+    .card-bg {
+      fill: #0D1117;
+      stroke: url(#stats-border);
+      stroke-width: 1.5;
+      rx: 12;
+    }
+    .stats-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      fill: #58A6FF;
+    }
+    .stat-row-label {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      fill: #C9D1D9;
+    }
+    .stat-row-val {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 700;
+      fill: #00F5D4;
+    }
+    @media (prefers-color-scheme: light) {
+      .card-bg {
+        fill: #FFFFFF;
+        stroke: #D0D7DE;
+      }
+      .stats-title {
+        fill: #0969DA;
+      }
+      .stat-row-label {
+        fill: #24292F;
+      }
+      .stat-row-val {
+        fill: #0969DA;
+      }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="stats-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#635BFF">
+        <animate attributeName="stop-color" values="#635BFF;#00F5D4;#635BFF" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00F5D4">
+        <animate attributeName="stop-color" values="#00F5D4;#635BFF;#00F5D4" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="408" height="173" class="card-bg" />
+
+  <!-- Header -->
+  <g transform="translate(20, 24)">
+    <text x="0" y="12" class="stats-title">📊 GitHub Overview Stats</text>
+  </g>
+
+  <!-- Metrics Table -->
+  <g transform="translate(20, 60)">
+    <!-- Commits -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="0" class="stat-row-label">🔥 Total Commits</text>
+      <text x="370" y="0" text-anchor="end" class="stat-row-val">90+</text>
+    </g>
+
+    <!-- Public Repos -->
+    <g transform="translate(0, 26)">
+      <text x="0" y="0" class="stat-row-label">📦 Public Repositories</text>
+      <text x="370" y="0" text-anchor="end" class="stat-row-val">4</text>
+    </g>
+
+    <!-- Total Stars -->
+    <g transform="translate(0, 52)">
+      <text x="0" y="0" class="stat-row-label">⭐ Total Stars Earned</text>
+      <text x="370" y="0" text-anchor="end" class="stat-row-val">0</text>
+    </g>
+
+    <!-- Forks -->
+    <g transform="translate(0, 78)">
+      <text x="0" y="0" class="stat-row-label">🍴 Total Forks</text>
+      <text x="370" y="0" text-anchor="end" class="stat-row-val">0</text>
+    </g>
+  </g>
+</svg>

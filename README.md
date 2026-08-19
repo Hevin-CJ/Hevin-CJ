@@ -82,32 +82,34 @@
   <br/>
 
   <!-- ═══════════════════════════════════════════════════════ -->
-  <!--       GITHUB STATS & TOP LANGUAGES (LIGHT/DARK)       -->
+  <!--       GITHUB STATS & TOP LANGUAGES (ANIMATED)          -->
   <!-- ═══════════════════════════════════════════════════════ -->
   <h3>📈 GitHub Activity &amp; Overview</h3>
 
   <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=default&hide_border=true&title_color=635BFF&icon_color=0969DA&text_color=24292F&bg_color=FFFFFF" />
-      <img src="https://github-stats-extended.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117" height="165" alt="GitHub Stats" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/stats.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/stats.svg" />
+      <img src="assets/stats.svg" width="48%" alt="GitHub Overview Stats" />
     </picture>
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=radical&hide_border=true&title_color=635BFF&text_color=FFFFFF&bg_color=0D1117" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=default&hide_border=true&title_color=635BFF&text_color=24292F&bg_color=FFFFFF" />
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=radical&hide_border=true&title_color=635BFF&text_color=FFFFFF&bg_color=0D1117" height="165" alt="Top Languages" />
+      <source media="(prefers-color-scheme: dark)" srcset="assets/top-langs.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/top-langs.svg" />
+      <img src="assets/top-langs.svg" width="48%" alt="Top Languages" />
     </picture>
   </p>
 
   <!-- ═══════════════════════════════════════════════════════ -->
-  <!--           CONTRIBUTION ACTIVITY (LIGHT/DARK)          -->
+  <!--           CONTRIBUTION ACTIVITY (ANIMATED)            -->
   <!-- ═══════════════════════════════════════════════════════ -->
   <h3>⚡ Contribution Activity</h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Hevin-CJ&theme=radical&background=0D1117&ring=635BFF&fire=00F5D4&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B949E&dates=8B949E&border=635BFF&stroke=0D1117&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Hevin-CJ&theme=default&background=FFFFFF&ring=635BFF&fire=0969DA&currStreakNum=24292F&sideNums=24292F&sideLabels=57606A&dates=57606A&border=D0D7DE&stroke=FFFFFF&hide_border=true" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hevin-CJ&theme=radical&background=0D1117&ring=635BFF&fire=00F5D4&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B949E&dates=8B949E&border=635BFF&stroke=0D1117&hide_border=true" alt="Contribution Streak & Activity" width="95%" />
-  </picture>
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/activity.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="assets/activity.svg" />
+      <img src="assets/activity.svg" width="96%" alt="Real-time Contribution Activity" />
+    </picture>
+  </p>
 
   <br/><br/>
 

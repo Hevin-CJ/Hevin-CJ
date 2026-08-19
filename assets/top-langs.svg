@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="410" height="175" viewBox="0 0 410 175" fill="none">
+  <style>
+    .card-bg {
+      fill: #0D1117;
+      stroke: url(#lang-border);
+      stroke-width: 1.5;
+      rx: 12;
+    }
+    .langs-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      fill: #58A6FF;
+    }
+    .lang-name {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      fill: #C9D1D9;
+    }
+    .lang-pct {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      fill: #8B949E;
+    }
+    .bar-track {
+      rx: 5;
+    }
+    @media (prefers-color-scheme: light) {
+      .card-bg {
+        fill: #FFFFFF;
+        stroke: #D0D7DE;
+      }
+      .langs-title {
+        fill: #0969DA;
+      }
+      .lang-name {
+        fill: #24292F;
+      }
+      .lang-pct {
+        fill: #57606A;
+      }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="lang-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5D4">
+        <animate attributeName="stop-color" values="#00F5D4;#FF007A;#00F5D4" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#635BFF">
+        <animate attributeName="stop-color" values="#635BFF;#00F5D4;#635BFF" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <clipPath id="bar-clip">
+      <rect x="0" y="0" width="370" height="10" rx="5" />
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="408" height="173" class="card-bg" />
+
+  <!-- Header -->
+  <g transform="translate(20, 24)">
+    <text x="0" y="12" class="langs-title">🚀 Top Languages</text>
+  </g>
+
+  <!-- Progress Bar -->
+  <g transform="translate(20, 56)" clip-path="url(#bar-clip)">
+    <rect x="0" y="0" width="277.5" height="10" fill="#A97BFF" />
+    <rect x="277.5" y="0" width="92.5" height="10" fill="#F1E05A" />
+  </g>
+
+  <!-- Legends -->
+  <g transform="translate(20, 88)">
+    <g transform="translate(0, 0)">
+        <circle cx="5" cy="5" r="5" fill="#A97BFF" />
+        <text x="16" y="9" class="lang-name">Kotlin</text>
+        <text x="140" y="9" text-anchor="end" class="lang-pct">75.0%</text>
+      </g>
+      <g transform="translate(190, 0)">
+        <circle cx="5" cy="5" r="5" fill="#F1E05A" />
+        <text x="16" y="9" class="lang-name">JavaScript</text>
+        <text x="140" y="9" text-anchor="end" class="lang-pct">25.0%</text>
+      </g>
+  </g>
+</svg>
