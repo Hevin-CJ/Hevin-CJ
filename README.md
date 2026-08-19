@@ -52,15 +52,18 @@
   <br/><br/>
 
   <!-- ═══════════════════════════════════════════════════════ -->
-  <!--              GITHUB STATS & STREAK CARDS               -->
+  <!--              GITHUB STATS & TOP LANGUAGES              -->
   <!-- ═══════════════════════════════════════════════════════ -->
   <h3>📈 GitHub Activity &amp; Stats</h3>
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117" height="165" alt="GitHub Stats"/>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hevin-CJ&theme=radical&hide_border=true&stroke=635BFF&ring=00F5D4&fire=FF4365&background=0D1117" height="165" alt="Streak Stats"/>
+    <img src="https://github-stats-extended.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117" height="165" alt="GitHub Stats"/>
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=radical&hide_border=true&title_color=635BFF&text_color=FFFFFF&bg_color=0D1117" height="165" alt="Top Languages"/>
   </p>
 
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=radical&hide_border=true&title_color=635BFF&text_color=FFFFFF&bg_color=0D1117" height="140" alt="Top Languages"/>
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--                  CONTRIBUTION GRAPH                    -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hevin-CJ&theme=react-dark&bg_color=0D1117&color=635BFF&line=00F5D4&point=FFFFFF&hide_border=true&area=true" width="95%" alt="Activity Graph"/>
 
   <br/><br/>
 
