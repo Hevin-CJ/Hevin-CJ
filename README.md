@@ -104,9 +104,9 @@
   <!-- ═══════════════════════════════════════════════════════ -->
   <h3>⚡ Contribution Activity</h3>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Hevin-CJ&theme=react-dark&bg_color=0D1117&color=635BFF&line=00F5D4&point=FFFFFF&hide_border=true&area=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Hevin-CJ&theme=github-light&bg_color=FFFFFF&color=635BFF&line=0969DA&point=24292F&hide_border=true&area=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hevin-CJ&theme=react-dark&bg_color=0D1117&color=635BFF&line=00F5D4&point=FFFFFF&hide_border=true&area=true" width="95%" alt="Activity Graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Hevin-CJ&theme=radical&background=0D1117&ring=635BFF&fire=00F5D4&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B949E&dates=8B949E&border=635BFF&stroke=0D1117&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Hevin-CJ&theme=default&background=FFFFFF&ring=635BFF&fire=0969DA&currStreakNum=24292F&sideNums=24292F&sideLabels=57606A&dates=57606A&border=D0D7DE&stroke=FFFFFF&hide_border=true" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hevin-CJ&theme=radical&background=0D1117&ring=635BFF&fire=00F5D4&currStreakNum=FFFFFF&sideNums=FFFFFF&sideLabels=8B949E&dates=8B949E&border=635BFF&stroke=0D1117&hide_border=true" alt="Contribution Streak & Activity" width="95%" />
   </picture>
 
   <br/><br/>
