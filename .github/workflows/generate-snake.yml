@@ -10,19 +10,27 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
-      - name: Generate snake SVG
+      - name: Generate snake SVG and push to output branch
         uses: Platane/snk@v3
         with:
           github_user_name: Hevin-CJ
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_CONFIG_EMAIL: hevincjofficial@gmail.com
 
-      - name: Push snake SVG to output branch
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: output
-          directory: dist
-          force: true
+      - name: Push to output branch
+        run: |
+          git config --global user.email "hevincjofficial@gmail.com"
+          git config --global user.name "Hevin-CJ"
+          git clone --branch output https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Hevin-CJ/Hevin-CJ.git output-branch
+          cp github-contribution-grid-snake-dark.svg output-branch/github-contribution-grid-snake-dark.svg
+          cd output-branch
+          git add github-contribution-grid-snake-dark.svg
+          git diff --cached --quiet || git commit -m "chore: update snake animation"
+          git push origin output
