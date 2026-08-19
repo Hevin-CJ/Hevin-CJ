@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+  <defs>
+    <!-- Multi-stop flowing gradient -->
+    <linearGradient id="aurora-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#635BFF">
+        <animate attributeName="stop-color" values="#635BFF;#00F5D4;#FF007A;#FFBE0B;#635BFF" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="35%" stop-color="#7B2CBF">
+        <animate attributeName="stop-color" values="#7B2CBF;#3A86FF;#FF0054;#00F5D4;#7B2CBF" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="70%" stop-color="#FF007A">
+        <animate attributeName="stop-color" values="#FF007A;#FFBE0B;#9D4EDD;#3A86FF;#FF007A" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00F5D4">
+        <animate attributeName="stop-color" values="#00F5D4;#635BFF;#FF007A;#06D6A0;#00F5D4" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Secondary accent gradient for layered waves -->
+    <linearGradient id="aurora-accent" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F5D4" stop-opacity="0.6">
+        <animate attributeName="stop-color" values="#00F5D4;#FF007A;#635BFF;#00F5D4" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#635BFF" stop-opacity="0.8">
+        <animate attributeName="stop-color" values="#635BFF;#00F5D4;#FFBE0B;#635BFF" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .aurora-bg {
+        transition: filter 0.4s ease, transform 0.4s ease;
+      }
+      .aurora-bg:hover {
+        filter: brightness(1.25) drop-shadow(0 0 25px rgba(0, 245, 212, 0.6));
+      }
+      .wave-1 {
+        animation: waveFloat 12s ease-in-out infinite alternate;
+      }
+      .wave-2 {
+        animation: waveFloat 8s ease-in-out infinite alternate-reverse;
+      }
+      @keyframes waveFloat {
+        0% { transform: translateY(0px) scaleY(1); }
+        50% { transform: translateY(-8px) scaleY(1.04); }
+        100% { transform: translateY(4px) scaleY(0.97); }
+      }
+      .header-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 44px;
+        font-weight: 800;
+        fill: #FFFFFF;
+        text-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+        letter-spacing: -0.5px;
+      }
+      .header-subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        fill: rgba(255, 255, 255, 0.9);
+        letter-spacing: 2px;
+        text-transform: uppercase;
+      }
+      .mesh-dot {
+        fill: #FFFFFF;
+        opacity: 0.25;
+        animation: pulseDot 4s ease-in-out infinite alternate;
+      }
+      @keyframes pulseDot {
+        0% { opacity: 0.15; transform: scale(0.8); }
+        100% { opacity: 0.6; transform: scale(1.2); }
+      }
+    </style>
+  </defs>
+
+  <g class="aurora-bg">
+    <!-- Main Background Wave -->
+    <path class="wave-1" d="M0,0 L900,0 L900,160 C750,220 600,120 450,170 C300,220 150,140 0,190 Z" fill="url(#aurora-grad)" />
+
+    <!-- Layered Overlay Wave -->
+    <path class="wave-2" d="M0,0 L900,0 L900,130 C720,190 560,110 380,165 C220,210 100,135 0,160 Z" fill="url(#aurora-accent)" opacity="0.75" />
+
+    <!-- Decorative Mesh Dots Grid -->
+    <g class="mesh-dots">
+      <circle cx="80" cy="50" r="2.5" class="mesh-dot" />
+      <circle cx="140" cy="80" r="2" class="mesh-dot" style="animation-delay: 0.5s;" />
+      <circle cx="200" cy="40" r="3" class="mesh-dot" style="animation-delay: 1.2s;" />
+      <circle cx="700" cy="50" r="2.5" class="mesh-dot" style="animation-delay: 0.8s;" />
+      <circle cx="760" cy="90" r="2" class="mesh-dot" style="animation-delay: 1.5s;" />
+      <circle cx="820" cy="45" r="3" class="mesh-dot" style="animation-delay: 0.3s;" />
+    </g>
+
+    <!-- Header Typography -->
+    <g transform="translate(450, 95)" text-anchor="middle">
+      <text class="header-title" y="0">Hi there, I'm Hevin 👋</text>
+      <text class="header-subtitle" y="38">Android &amp; Kotlin Developer • CashFlow Creator</text>
+    </g>
+  </g>
+</svg>

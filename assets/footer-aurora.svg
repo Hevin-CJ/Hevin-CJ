@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="100%" height="120">
+  <defs>
+    <linearGradient id="footer-aurora-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4">
+        <animate attributeName="stop-color" values="#00F5D4;#635BFF;#FF007A;#FFBE0B;#00F5D4" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#7B2CBF">
+        <animate attributeName="stop-color" values="#7B2CBF;#3A86FF;#FF0054;#00F5D4;#7B2CBF" dur="10s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#635BFF">
+        <animate attributeName="stop-color" values="#635BFF;#00F5D4;#FFBE0B;#FF007A;#635BFF" dur="10s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="footer-accent" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF007A" stop-opacity="0.6">
+        <animate attributeName="stop-color" values="#FF007A;#635BFF;#00F5D4;#FF007A" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#00F5D4" stop-opacity="0.75">
+        <animate attributeName="stop-color" values="#00F5D4;#FFBE0B;#635BFF;#00F5D4" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <style>
+      .footer-wave {
+        transition: filter 0.4s ease;
+      }
+      .footer-wave:hover {
+        filter: brightness(1.2) drop-shadow(0 -4px 20px rgba(99, 91, 255, 0.5));
+      }
+    </style>
+  </defs>
+
+  <g class="footer-wave">
+    <!-- Base Wave -->
+    <path d="M0,70 C180,15 360,110 540,45 C720,-10 820,65 900,30 L900,120 L0,120 Z" fill="url(#footer-aurora-grad)" />
+    <!-- Layered Translucent Wave -->
+    <path d="M0,90 C150,40 320,105 500,60 C680,15 780,85 900,55 L900,120 L0,120 Z" fill="url(#footer-accent)" opacity="0.6" />
+  </g>
+</svg>
