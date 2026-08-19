@@ -70,7 +70,7 @@
   </g>
 
   <!-- Description -->
-  <text x="18" y="66" class="desc">Modern grocery shopping and inventory management</text>
+  <text x="18" y="66" class="desc">Modern open-source project.</text>
 
   <!-- Language Chip, Commits, Stars, Forks -->
   <g transform="translate(18, 105)">
@@ -79,8 +79,8 @@
     <text x="15" y="0" class="badge-text">Kotlin</text>
 
     <!-- Commits Metric -->
-    <g transform="translate(100, 0)">
-      <text x="0" y="0" class="badge-text" fill="#FF8A00">🔥 45+ commits</text>
+    <g transform="translate(110, 0)">
+      <text x="0" y="0" class="badge-text" fill="#FF8A00">🔥 14 commits</text>
     </g>
 
     <!-- Stars -->

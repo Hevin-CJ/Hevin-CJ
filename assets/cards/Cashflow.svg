@@ -70,7 +70,7 @@
   </g>
 
   <!-- Description -->
-  <text x="18" y="66" class="desc">An Expense Tracker for Android</text>
+  <text x="18" y="66" class="desc">An Expense Tracker </text>
 
   <!-- Language Chip, Commits, Stars, Forks -->
   <g transform="translate(18, 105)">
@@ -79,8 +79,8 @@
     <text x="15" y="0" class="badge-text">Kotlin</text>
 
     <!-- Commits Metric -->
-    <g transform="translate(100, 0)">
-      <text x="0" y="0" class="badge-text" fill="#FF8A00">🔥 140+ commits</text>
+    <g transform="translate(110, 0)">
+      <text x="0" y="0" class="badge-text" fill="#FF8A00">🔥 28 commits</text>
     </g>
 
     <!-- Stars -->

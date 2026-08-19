@@ -63,15 +63,15 @@
 
 <!-- POPULAR-REPOS:START -->
   <p align="center">
+    <a href="https://github.com/Hevin-CJ/Grocerly-Partner">
+      <img src="assets/cards/Grocerly-Partner.svg" width="48%" alt="Grocerly-Partner Repository Card" />
+    </a>
     <a href="https://github.com/Hevin-CJ/Cashflow">
       <img src="assets/cards/Cashflow.svg" width="48%" alt="Cashflow Repository Card" />
     </a>
+    <br/>
     <a href="https://github.com/Hevin-CJ/Grocerly">
       <img src="assets/cards/Grocerly.svg" width="48%" alt="Grocerly Repository Card" />
-    </a>
-    <br/>
-    <a href="https://github.com/Hevin-CJ/Grocerly-Partner">
-      <img src="assets/cards/Grocerly-Partner.svg" width="48%" alt="Grocerly-Partner Repository Card" />
     </a>
     <a href="https://github.com/Hevin-CJ/learning-git">
       <img src="assets/cards/learning-git.svg" width="48%" alt="learning-git Repository Card" />
