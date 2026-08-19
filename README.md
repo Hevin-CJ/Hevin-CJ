@@ -52,25 +52,42 @@
   <br/><br/>
 
   <!-- ═══════════════════════════════════════════════════════ -->
-  <!--              GITHUB STATS & TOP LANGUAGES              -->
+  <!--       GITHUB STATS & TOP LANGUAGES (LIGHT/DARK)       -->
   <!-- ═══════════════════════════════════════════════════════ -->
   <h3>📈 GitHub Activity &amp; Stats</h3>
-  <p>
-    <img src="https://github-stats-extended.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117" height="165" alt="GitHub Stats"/>
-    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=radical&hide_border=true&title_color=635BFF&text_color=FFFFFF&bg_color=0D1117" height="165" alt="Top Languages"/>
+
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=default&hide_border=true&title_color=635BFF&icon_color=0969DA&text_color=24292F&bg_color=FFFFFF" />
+      <img src="https://github-stats-extended.vercel.app/api?username=Hevin-CJ&show_icons=true&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117" height="165" alt="GitHub Stats" />
+    </picture>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=radical&hide_border=true&title_color=635BFF&text_color=FFFFFF&bg_color=0D1117" />
+      <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=default&hide_border=true&title_color=635BFF&text_color=24292F&bg_color=FFFFFF" />
+      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Hevin-CJ&layout=compact&theme=radical&hide_border=true&title_color=635BFF&text_color=FFFFFF&bg_color=0D1117" height="165" alt="Top Languages" />
+    </picture>
   </p>
 
   <!-- ═══════════════════════════════════════════════════════ -->
-  <!--                  CONTRIBUTION GRAPH                    -->
+  <!--           CONTRIBUTION GRAPH (LIGHT/DARK)             -->
   <!-- ═══════════════════════════════════════════════════════ -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hevin-CJ&theme=react-dark&bg_color=0D1117&color=635BFF&line=00F5D4&point=FFFFFF&hide_border=true&area=true" width="95%" alt="Activity Graph"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Hevin-CJ&theme=react-dark&bg_color=0D1117&color=635BFF&line=00F5D4&point=FFFFFF&hide_border=true&area=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Hevin-CJ&theme=github-light&bg_color=FFFFFF&color=635BFF&line=0969DA&point=24292F&hide_border=true&area=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Hevin-CJ&theme=react-dark&bg_color=0D1117&color=635BFF&line=00F5D4&point=FFFFFF&hide_border=true&area=true" width="95%" alt="Activity Graph" />
+  </picture>
 
   <br/><br/>
 
   <!-- ═══════════════════════════════════════════════════════ -->
-  <!--           CONTRIBUTION SNAKE ANIMATION                 -->
+  <!--       CONTRIBUTION SNAKE ANIMATION (LIGHT/DARK)       -->
   <!-- ═══════════════════════════════════════════════════════ -->
-  <img src="https://raw.githubusercontent.com/Hevin-CJ/Hevin-CJ/output/github-contribution-grid-snake-dark.svg" alt="Snake eating contributions"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Hevin-CJ/Hevin-CJ/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Hevin-CJ/Hevin-CJ/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/Hevin-CJ/Hevin-CJ/output/github-contribution-grid-snake-dark.svg" alt="Snake eating contributions" />
+  </picture>
 
   <br/>
 

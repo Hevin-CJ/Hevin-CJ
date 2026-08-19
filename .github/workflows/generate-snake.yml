@@ -14,11 +14,12 @@ jobs:
       contents: write
 
     steps:
-      - name: Generate snake SVG and push to output branch
+      - name: Generate snake SVG for light and dark modes
         uses: Platane/snk@v3
         with:
           github_user_name: Hevin-CJ
           outputs: |
+            github-contribution-grid-snake.svg
             github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -29,8 +30,9 @@ jobs:
           git config --global user.email "hevincjofficial@gmail.com"
           git config --global user.name "Hevin-CJ"
           git clone --branch output https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Hevin-CJ/Hevin-CJ.git output-branch
+          cp github-contribution-grid-snake.svg output-branch/github-contribution-grid-snake.svg
           cp github-contribution-grid-snake-dark.svg output-branch/github-contribution-grid-snake-dark.svg
           cd output-branch
-          git add github-contribution-grid-snake-dark.svg
-          git diff --cached --quiet || git commit -m "chore: update snake animation"
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git diff --cached --quiet || git commit -m "chore: update light and dark snake animations"
           git push origin output
