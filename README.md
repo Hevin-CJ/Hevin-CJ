@@ -13,7 +13,7 @@
   <!--               DYNAMIC TYPING ANIMATION                 -->
   <!-- ═══════════════════════════════════════════════════════ -->
   <a href="https://github.com/Hevin-CJ">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=635BFF&center=true&vCenter=true&width=550&lines=Android+%26+Kotlin+Developer+%F0%9F%9A%80;Jetpack+Compose+Architect+%E2%9C%A8;CashFlow+Lead+Architect+%F0%9F%92%B3;Building+Snappy+Offline-First+Apps+%E2%9A%A1" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=635BFF&center=true&vCenter=true&width=580&lines=Android+Application+Developer+%F0%9F%9A%80;Jetpack+Compose+Architect+%E2%9C%A8;Building+Snappy+Offline-First+Apps+%E2%9A%A1;Crafting+Modern+Native+Apps+%F0%9F%93%B1" alt="Typing SVG" />
   </a>
 
   <br/><br/>
@@ -37,9 +37,9 @@
   <!--                     ABOUT ME                           -->
   <!-- ═══════════════════════════════════════════════════════ -->
   <p>
-    💡 Passionate about building modern, snappy, offline-first Android apps.<br/>
-    📱 Lead developer behind <b>CashFlow</b> — a Modern Personal Finance &amp; Expense Tracker.<br/>
-    🌱 Continuously exploring high-performance Compose layouts, Room architectures, and delta updaters.
+    💡 Passionate about building modern, snappy, offline-first Android applications.<br/>
+    📱 Focused on scalable architectures, clean Material 3 UI, and seamless user experiences.<br/>
+    🌱 Continuously exploring high-performance Jetpack Compose, Room databases, and modern Android stack.
   </p>
 
   <br/>
