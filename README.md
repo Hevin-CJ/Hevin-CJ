@@ -69,7 +69,57 @@
         <img src="https://github-stats-extended.vercel.app/api/pin/?username=Hevin-CJ&repo=cashflow-backend&theme=radical&hide_border=true&title_color=635BFF&icon_color=00F5D4&text_color=FFFFFF&bg_color=0D1117&show_owner=false" height="155" alt="cashflow-backend Repository" />
       </picture>
     </a>
-  </p>
+  <br/>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!--             ⚡ PUBLIC OPEN SOURCE PROJECTS             -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <h3>🚀 Public Projects &amp; Repositories</h3>
+  <p>Live snapshot auto-synced daily via GitHub Actions:</p>
+
+<!-- RECENT-REPOS:START -->
+<table>
+  <thead>
+    <tr>
+      <th align="left">🚀 Project</th>
+      <th align="left">📝 Description</th>
+      <th align="center">🛠️ Language</th>
+      <th align="center">⭐ Stars</th>
+      <th align="center">🍴 Forks</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/Hevin-CJ/Cashflow"><b>Cashflow</b></a></td>
+      <td>An Expense Tracker </td>
+      <td align="center"><code>Kotlin</code></td>
+      <td align="center">0</td>
+      <td align="center">0</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Hevin-CJ/Grocerly"><b>Grocerly</b></a></td>
+      <td>No description provided.</td>
+      <td align="center"><code>Kotlin</code></td>
+      <td align="center">0</td>
+      <td align="center">0</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Hevin-CJ/Grocerly-Partner"><b>Grocerly-Partner</b></a></td>
+      <td>No description provided.</td>
+      <td align="center"><code>Kotlin</code></td>
+      <td align="center">0</td>
+      <td align="center">0</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/Hevin-CJ/learning-git"><b>learning-git</b></a></td>
+      <td>No description provided.</td>
+      <td align="center"><code>JavaScript</code></td>
+      <td align="center">0</td>
+      <td align="center">0</td>
+    </tr>
+  </tbody>
+</table>
+<!-- RECENT-REPOS:END -->
 
   <br/>
 

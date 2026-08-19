@@ -1,0 +1,41 @@
+name: Sync Public Repositories
+
+on:
+  schedule:
+    # Run once daily at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch: # Manual execution
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/scripts/update_repos.py'
+
+jobs:
+  update-repos:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch and Update Repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 .github/scripts/update_repos.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore(profile): sync public repositories table [skip ci]"
+          git push
