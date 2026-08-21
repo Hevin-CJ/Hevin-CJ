@@ -64,7 +64,7 @@
     <!-- Commits -->
     <g transform="translate(0, 0)">
       <text x="0" y="0" class="stat-row-label">🔥 Total Commits</text>
-      <text x="370" y="0" text-anchor="end" class="stat-row-val">94+</text>
+      <text x="370" y="0" text-anchor="end" class="stat-row-val">100+</text>
     </g>
 
     <!-- Public Repos -->
