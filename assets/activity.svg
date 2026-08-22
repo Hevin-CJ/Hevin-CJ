@@ -95,7 +95,7 @@
   <g transform="translate(45, 80)">
     <!-- Total Commits -->
     <g transform="translate(0, 0)">
-      <text x="0" y="0" class="metric-value">🔥 100+</text>
+      <text x="0" y="0" class="metric-value">🔥 102+</text>
       <text x="0" y="20" class="metric-label">Total Verified Commits</text>
     </g>
 
