@@ -95,13 +95,13 @@
   <g transform="translate(45, 80)">
     <!-- Total Commits -->
     <g transform="translate(0, 0)">
-      <text x="0" y="0" class="metric-value">🔥 108+</text>
+      <text x="0" y="0" class="metric-value">🔥 112+</text>
       <text x="0" y="20" class="metric-label">Total Verified Commits</text>
     </g>
 
     <!-- Active Projects -->
     <g transform="translate(280, 0)">
-      <text x="0" y="0" class="metric-value">🚀 4 Public Apps</text>
+      <text x="0" y="0" class="metric-value">🚀 5 Public Apps</text>
       <text x="0" y="20" class="metric-label">Open Source Codebases</text>
     </g>
 
