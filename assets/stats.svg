@@ -64,13 +64,13 @@
     <!-- Commits -->
     <g transform="translate(0, 0)">
       <text x="0" y="0" class="stat-row-label">🔥 Total Commits</text>
-      <text x="370" y="0" text-anchor="end" class="stat-row-val">110+</text>
+      <text x="370" y="0" text-anchor="end" class="stat-row-val">111+</text>
     </g>
 
     <!-- Public Repos -->
     <g transform="translate(0, 26)">
       <text x="0" y="0" class="stat-row-label">📦 Public Repositories</text>
-      <text x="370" y="0" text-anchor="end" class="stat-row-val">5</text>
+      <text x="370" y="0" text-anchor="end" class="stat-row-val">6</text>
     </g>
 
     <!-- Total Stars -->
